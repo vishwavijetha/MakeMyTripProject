@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28768" started-at="2019-04-28T11:32:40Z" finished-at="2019-04-28T11:33:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28768" started-at="2019-04-28T11:32:40Z" finished-at="2019-04-28T11:33:09Z">
+      <class name="com.mmt.qa.testscripts.SearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="17176" started-at="2019-04-28T11:32:40Z" finished-at="2019-04-28T11:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="verifyTitle" duration-ms="30" started-at="2019-04-28T11:32:57Z" description="Verify SearchPage title" finished-at="2019-04-28T11:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="displayRoundTripFlights(java.lang.String)[pri:2, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="displayRoundTripFlights" duration-ms="5177" started-at="2019-04-28T11:32:57Z" description="Display total no. of Departure and Return flights for different Stops" data-provider="getStops" finished-at="2019-04-28T11:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEFAULT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayRoundTripFlights -->
+        <test-method status="PASS" signature="displayRoundTripFlights(java.lang.String)[pri:2, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="displayRoundTripFlights" duration-ms="551" started-at="2019-04-28T11:33:02Z" description="Display total no. of Departure and Return flights for different Stops" data-provider="getStops" finished-at="2019-04-28T11:33:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NONSTOP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayRoundTripFlights -->
+        <test-method status="PASS" signature="displayRoundTripFlights(java.lang.String)[pri:2, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="displayRoundTripFlights" duration-ms="1046" started-at="2019-04-28T11:33:03Z" description="Display total no. of Departure and Return flights for different Stops" data-provider="getStops" finished-at="2019-04-28T11:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ONESTOP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayRoundTripFlights -->
+        <test-method status="PASS" signature="selectRandomRoundTripFlightsAndVerifyPrice(int, int)[pri:3, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="selectRandomRoundTripFlightsAndVerifyPrice" duration-ms="1009" started-at="2019-04-28T11:33:04Z" description="Select random RoundTrip flights and verify prices" data-provider="getRandomRoundTripFlightsTop10Index" finished-at="2019-04-28T11:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRandomRoundTripFlightsAndVerifyPrice -->
+        <test-method status="PASS" signature="selectRandomRoundTripFlightsAndVerifyPrice(int, int)[pri:3, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="selectRandomRoundTripFlightsAndVerifyPrice" duration-ms="837" started-at="2019-04-28T11:33:05Z" description="Select random RoundTrip flights and verify prices" data-provider="getRandomRoundTripFlightsTop10Index" finished-at="2019-04-28T11:33:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRandomRoundTripFlightsAndVerifyPrice -->
+        <test-method status="PASS" signature="selectRandomRoundTripFlightsAndVerifyPrice(int, int)[pri:3, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="selectRandomRoundTripFlightsAndVerifyPrice" duration-ms="1232" started-at="2019-04-28T11:33:06Z" description="Select random RoundTrip flights and verify prices" data-provider="getRandomRoundTripFlightsTop10Index" finished-at="2019-04-28T11:33:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRandomRoundTripFlightsAndVerifyPrice -->
+        <test-method status="PASS" signature="selectRandomRoundTripFlightsAndVerifyPrice(int, int)[pri:3, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="selectRandomRoundTripFlightsAndVerifyPrice" duration-ms="638" started-at="2019-04-28T11:33:07Z" description="Select random RoundTrip flights and verify prices" data-provider="getRandomRoundTripFlightsTop10Index" finished-at="2019-04-28T11:33:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRandomRoundTripFlightsAndVerifyPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mmt.qa.testscripts.SearchPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="842" started-at="2019-04-28T11:33:08Z" finished-at="2019-04-28T11:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mmt.qa.testscripts.SearchPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

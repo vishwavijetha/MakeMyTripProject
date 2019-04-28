@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MMT_TestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.mmt.qa.util.RetryListener"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="HomePage TestCases(failed)" parallel="tests">
+    <classes>
+      <class name="com.mmt.qa.testscripts.HomePageTest">
+        <methods>
+          <include name="verifyHomePageSearch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mmt.qa.testscripts.HomePageTest -->
+    </classes>
+  </test> <!-- HomePage TestCases(failed) -->
+</suite> <!-- Failed suite [MMT_TestSuite] -->

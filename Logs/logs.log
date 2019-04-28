@@ -1,0 +1,200 @@
+28-04-2019 17:38:58 INFO  TestNGListener:30  - 
+
+28-04-2019 17:38:58 INFO  TestNGListener:31  - ///////////////////////////////////////////////////////////////////
+28-04-2019 17:38:58 INFO  TestNGListener:32  - ////__________________________ START ______________________________
+28-04-2019 17:38:58 INFO  TestNGListener:30  - 
+
+28-04-2019 17:38:58 INFO  TestNGListener:31  - ///////////////////////////////////////////////////////////////////
+28-04-2019 17:38:58 INFO  TestNGListener:32  - ////__________________________ START ______________________________
+28-04-2019 17:38:58 INFO  BrowserFactory:40  - Setting browser: 'chrome', headless: 'false'
+28-04-2019 17:38:58 INFO  BrowserFactory:119  - Selected Platform: Windows 10
+28-04-2019 17:39:02 INFO  DriverBase:43  - Browser launched: chrome
+28-04-2019 17:39:02 INFO  BrowserFactory:40  - Setting browser: 'chrome', headless: 'false'
+28-04-2019 17:39:02 INFO  BrowserFactory:119  - Selected Platform: Windows 10
+28-04-2019 17:39:02 INFO  DriverBase:119  - Maximize browser window
+28-04-2019 17:39:03 INFO  DriverBase:105  - Setting ImplicitWait: 30
+28-04-2019 17:39:03 INFO  DriverBase:95  - Setting PageLoadTimeout: 60
+28-04-2019 17:39:03 INFO  DriverBase:124  - Opening URL: https://www.makemytrip.com
+28-04-2019 17:39:05 INFO  DriverBase:43  - Browser launched: chrome
+28-04-2019 17:39:05 INFO  DriverBase:119  - Maximize browser window
+28-04-2019 17:39:07 INFO  DriverBase:105  - Setting ImplicitWait: 30
+28-04-2019 17:39:07 INFO  DriverBase:95  - Setting PageLoadTimeout: 60
+28-04-2019 17:39:07 INFO  DriverBase:124  - Opening URL: https://www.makemytrip.com
+28-04-2019 17:39:11 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:11 INFO  TestNGListener:46  - $$  Executing TestCase: --> verifyTitle( )  $$
+28-04-2019 17:39:11 INFO  TestNGListener:47  - $$  Test Description: Verify HomePage title
+28-04-2019 17:39:11 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:11 INFO  DriverBase:90  - Page Title: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+28-04-2019 17:39:11 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:11 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:11 INFO  TestNGListener:61  - //// TestCase: verifyTitle( )
+28-04-2019 17:39:11 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:11 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:11 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:11 INFO  TestNGListener:65  - //// Total Duration: 0.049 seconds
+28-04-2019 17:39:11 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:11 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:11 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:11 INFO  TestNGListener:46  - $$  Executing TestCase: --> verifyHomePageSearch( )  $$
+28-04-2019 17:39:11 INFO  TestNGListener:47  - $$  Test Description: Verify HomePage basic Search functionality
+28-04-2019 17:39:11 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:16 INFO  HomePage:77  - Selected 'From' city: Delhi, India Delhi Airport DEL
+28-04-2019 17:39:16 INFO  HomePage:77  - Selected 'From' city: Delhi, India Delhi Airport DEL
+28-04-2019 17:39:18 INFO  HomePage:116  - Selected 'To' city: Bangalore, India Kempegowda International Airport BLR
+28-04-2019 17:39:18 INFO  HomePage:193  - Selected date: 28-April-2019
+28-04-2019 17:39:18 INFO  HomePage:116  - Selected 'To' city: Bangalore, India Kempegowda International Airport BLR
+28-04-2019 17:39:19 INFO  HomePage:193  - Selected date: 28-April-2019
+28-04-2019 17:39:19 INFO  HomePage:193  - Selected date: 05-May-2019
+28-04-2019 17:39:20 INFO  HomePage:193  - Selected date: 05-May-2019
+28-04-2019 17:39:23 INFO  HomePage:249  - Clicked on Search button
+28-04-2019 17:39:23 INFO  SearchPage:258  - Actual 'From' city: Delhi, India, Expected 'From' city: DELHI
+28-04-2019 17:39:23 INFO  SearchPage:259  - Actual 'To' city: Bangalore, India, Expected 'To' city: BANGALORE
+28-04-2019 17:39:23 INFO  SearchPage:260  - Actual Departure date: 28-April-2019, Expected Departure date: 28-April-2019
+28-04-2019 17:39:23 INFO  SearchPage:261  - Actual Return date: 05-May-2019, Expected Return date: 05-May-2019
+28-04-2019 17:39:23 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:23 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:23 INFO  TestNGListener:61  - //// TestCase: verifyHomePageSearch( )
+28-04-2019 17:39:23 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:23 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:23 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:23 INFO  TestNGListener:65  - //// Total Duration: 11.828 seconds
+28-04-2019 17:39:23 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:23 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:24 INFO  HomePage:249  - Clicked on Search button
+28-04-2019 17:39:24 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:24 INFO  TestNGListener:46  - $$  Executing TestCase: --> verifyTitle( )  $$
+28-04-2019 17:39:24 INFO  TestNGListener:47  - $$  Test Description: Verify SearchPage title
+28-04-2019 17:39:24 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:24 INFO  DriverBase:90  - Page Title: Makemytrip
+28-04-2019 17:39:24 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:24 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:24 INFO  TestNGListener:61  - //// TestCase: verifyTitle( )
+28-04-2019 17:39:24 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:24 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:24 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:24 INFO  TestNGListener:65  - //// Total Duration: 0.02 seconds
+28-04-2019 17:39:24 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:24 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:24 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:24 INFO  TestNGListener:46  - $$  Executing TestCase: --> displayRoundTripFlights( DEFAULT )  $$
+28-04-2019 17:39:24 INFO  TestNGListener:47  - $$  Test Description: Display total no. of Departure and Return flights for different Stops
+28-04-2019 17:39:24 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:24 INFO  DriverBase:84  - Browser closed...
+28-04-2019 17:39:24 INFO  TestNGListener:37  - ////___________________________ END _______________________________
+28-04-2019 17:39:24 INFO  TestNGListener:38  - ///////////////////////////////////////////////////////////////////
+28-04-2019 17:39:31 INFO  SearchPage:162  - Total no. of [DEFAULT] Departure Flights: 7
+28-04-2019 17:39:31 INFO  SearchPage:163  - Total no. of [DEFAULT] Return Flights: 71
+28-04-2019 17:39:31 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:31 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:31 INFO  TestNGListener:61  - //// TestCase: displayRoundTripFlights( DEFAULT )
+28-04-2019 17:39:31 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:31 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:31 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:31 INFO  TestNGListener:65  - //// Total Duration: 6.993 seconds
+28-04-2019 17:39:31 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:31 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:31 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:31 INFO  TestNGListener:46  - $$  Executing TestCase: --> displayRoundTripFlights( NONSTOP )  $$
+28-04-2019 17:39:31 INFO  TestNGListener:47  - $$  Test Description: Display total no. of Departure and Return flights for different Stops
+28-04-2019 17:39:31 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:32 INFO  SearchPage:162  - Total no. of [NONSTOP] Departure Flights: 5
+28-04-2019 17:39:32 INFO  SearchPage:163  - Total no. of [NONSTOP] Return Flights: 35
+28-04-2019 17:39:32 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:32 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:32 INFO  TestNGListener:61  - //// TestCase: displayRoundTripFlights( NONSTOP )
+28-04-2019 17:39:32 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:32 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:32 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:32 INFO  TestNGListener:65  - //// Total Duration: 0.999 seconds
+28-04-2019 17:39:32 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:32 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:32 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:32 INFO  TestNGListener:46  - $$  Executing TestCase: --> displayRoundTripFlights( ONESTOP )  $$
+28-04-2019 17:39:32 INFO  TestNGListener:47  - $$  Test Description: Display total no. of Departure and Return flights for different Stops
+28-04-2019 17:39:32 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:33 INFO  SearchPage:162  - Total no. of [ONESTOP] Departure Flights: 2
+28-04-2019 17:39:33 INFO  SearchPage:163  - Total no. of [ONESTOP] Return Flights: 33
+28-04-2019 17:39:33 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:33 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:33 INFO  TestNGListener:61  - //// TestCase: displayRoundTripFlights( ONESTOP )
+28-04-2019 17:39:33 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:33 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:33 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:33 INFO  TestNGListener:65  - //// Total Duration: 1.118 seconds
+28-04-2019 17:39:33 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:33 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:33 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:33 INFO  TestNGListener:46  - $$  Executing TestCase: --> selectRandomRoundTripFlightsAndVerifyPrice( 2, 1 )  $$
+28-04-2019 17:39:33 INFO  TestNGListener:47  - $$  Test Description: Select random RoundTrip flights and verify prices
+28-04-2019 17:39:33 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:34 INFO  SearchPage:199  - Departure Flight price found at index: 2 --> Rs 14,653
+28-04-2019 17:39:34 INFO  SearchPage:202  - Return Flight price found at index: 1 --> Rs 6,291
+28-04-2019 17:39:34 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 14,653, FooterPrice = Rs 14,653 Status --> true
+28-04-2019 17:39:34 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 6,291, FooterPrice = Rs 6,291 Status --> true
+28-04-2019 17:39:34 INFO  SearchPage:306  - Verify Total Footer Price: Actual Price (Departure(Rs 14,653) + Return(Rs 6,291)) = 20944, Expected Price = (Actual (Rs 20,944) + Discount (0) = 20944) Status --> true
+28-04-2019 17:39:34 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:34 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:34 INFO  TestNGListener:61  - //// TestCase: selectRandomRoundTripFlightsAndVerifyPrice( 2, 1 )
+28-04-2019 17:39:34 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:34 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:34 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:34 INFO  TestNGListener:65  - //// Total Duration: 1.11 seconds
+28-04-2019 17:39:34 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:34 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:34 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:34 INFO  TestNGListener:46  - $$  Executing TestCase: --> selectRandomRoundTripFlightsAndVerifyPrice( 1, 4 )  $$
+28-04-2019 17:39:34 INFO  TestNGListener:47  - $$  Test Description: Select random RoundTrip flights and verify prices
+28-04-2019 17:39:34 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:35 INFO  SearchPage:199  - Departure Flight price found at index: 1 --> Rs 13,413
+28-04-2019 17:39:35 INFO  SearchPage:202  - Return Flight price found at index: 4 --> Rs 6,841
+28-04-2019 17:39:35 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 13,413, FooterPrice = Rs 13,413 Status --> true
+28-04-2019 17:39:35 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 6,841, FooterPrice = Rs 6,841 Status --> true
+28-04-2019 17:39:35 INFO  SearchPage:306  - Verify Total Footer Price: Actual Price (Departure(Rs 13,413) + Return(Rs 6,841)) = 20254, Expected Price = (Actual (Rs 20,200) + Discount (54) = 20254) Status --> true
+28-04-2019 17:39:35 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:35 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:35 INFO  TestNGListener:61  - //// TestCase: selectRandomRoundTripFlightsAndVerifyPrice( 1, 4 )
+28-04-2019 17:39:35 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:35 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:35 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:35 INFO  TestNGListener:65  - //// Total Duration: 0.846 seconds
+28-04-2019 17:39:35 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:35 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:35 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:35 INFO  TestNGListener:46  - $$  Executing TestCase: --> selectRandomRoundTripFlightsAndVerifyPrice( 2, 4 )  $$
+28-04-2019 17:39:35 INFO  TestNGListener:47  - $$  Test Description: Select random RoundTrip flights and verify prices
+28-04-2019 17:39:35 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:36 INFO  SearchPage:199  - Departure Flight price found at index: 2 --> Rs 14,653
+28-04-2019 17:39:36 INFO  SearchPage:202  - Return Flight price found at index: 4 --> Rs 6,841
+28-04-2019 17:39:36 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 14,653, FooterPrice = Rs 14,653 Status --> true
+28-04-2019 17:39:36 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 6,841, FooterPrice = Rs 6,841 Status --> true
+28-04-2019 17:39:36 INFO  SearchPage:306  - Verify Total Footer Price: Actual Price (Departure(Rs 14,653) + Return(Rs 6,841)) = 21494, Expected Price = (Actual (Rs 21,494) + Discount (0) = 21494) Status --> true
+28-04-2019 17:39:36 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:36 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:36 INFO  TestNGListener:61  - //// TestCase: selectRandomRoundTripFlightsAndVerifyPrice( 2, 4 )
+28-04-2019 17:39:36 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:36 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:36 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:36 INFO  TestNGListener:65  - //// Total Duration: 1.239 seconds
+28-04-2019 17:39:36 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:36 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:36 INFO  TestNGListener:45  - ********************************************************************
+28-04-2019 17:39:36 INFO  TestNGListener:46  - $$  Executing TestCase: --> selectRandomRoundTripFlightsAndVerifyPrice( 2, 7 )  $$
+28-04-2019 17:39:36 INFO  TestNGListener:47  - $$  Test Description: Select random RoundTrip flights and verify prices
+28-04-2019 17:39:36 INFO  TestNGListener:48  - ********************************************************************
+28-04-2019 17:39:37 INFO  SearchPage:199  - Departure Flight price found at index: 2 --> Rs 14,653
+28-04-2019 17:39:37 INFO  SearchPage:202  - Return Flight price found at index: 7 --> Rs 6,841
+28-04-2019 17:39:37 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 14,653, FooterPrice = Rs 14,653 Status --> true
+28-04-2019 17:39:37 INFO  SearchPage:281  - Verify Price: SelectedPrice = Rs 6,841, FooterPrice = Rs 6,841 Status --> true
+28-04-2019 17:39:37 INFO  SearchPage:306  - Verify Total Footer Price: Actual Price (Departure(Rs 14,653) + Return(Rs 6,841)) = 21494, Expected Price = (Actual (Rs 21,494) + Discount (0) = 21494) Status --> true
+28-04-2019 17:39:37 INFO  TestNGListener:59  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:37 INFO  TestNGListener:60  - ////________________________________________________________________
+28-04-2019 17:39:37 INFO  TestNGListener:61  - //// TestCase: selectRandomRoundTripFlightsAndVerifyPrice( 2, 7 )
+28-04-2019 17:39:37 INFO  TestNGListener:62  - ////________________________________________________________________
+28-04-2019 17:39:37 INFO  TestNGListener:63  - //// Status: PASSED
+28-04-2019 17:39:37 INFO  TestNGListener:64  - ////________________________________________________________________
+28-04-2019 17:39:37 INFO  TestNGListener:65  - //// Total Duration: 0.629 seconds
+28-04-2019 17:39:37 INFO  TestNGListener:66  - ////________________________________________________________________
+28-04-2019 17:39:37 INFO  TestNGListener:67  - ////////////////////////////////////////////////////////////////////
+28-04-2019 17:39:38 INFO  DriverBase:84  - Browser closed...
+28-04-2019 17:39:38 INFO  TestNGListener:37  - ////___________________________ END _______________________________
+28-04-2019 17:39:38 INFO  TestNGListener:38  - ///////////////////////////////////////////////////////////////////

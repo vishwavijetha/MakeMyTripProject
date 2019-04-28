@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mmt.qa.util.TestNGListener"/>
+    <listener class-name="com.mmt.qa.util.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="SearchPage Test(failed)">
+    <classes>
+      <class name="com.mmt.qa.testscripts.SearchPageTest">
+        <methods>
+          <include name="selectRandomRoundTripFlightsAndVerifyPrice" invocation-numbers="1 1 3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mmt.qa.testscripts.SearchPageTest -->
+    </classes>
+  </test> <!-- SearchPage Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

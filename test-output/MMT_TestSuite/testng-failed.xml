@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MMT_TestSuite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.mmt.qa.util.RetryListener"/>
+  </listeners>
+  <test thread-count="2" name="HomePage TestCases(failed)" parallel="classes">
+    <classes>
+      <class name="com.mmt.qa.testscripts.HomePageTest">
+        <methods>
+          <include name="verifyHomePageSearch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mmt.qa.testscripts.HomePageTest -->
+    </classes>
+  </test> <!-- HomePage TestCases(failed) -->
+  <test thread-count="2" name="SearchPage TestCases(failed)" parallel="classes">
+    <classes>
+      <class name="com.mmt.qa.testscripts.SearchPageTest">
+        <methods>
+          <include name="selectRandomRoundTripFlightsAndVerifyPrice"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mmt.qa.testscripts.SearchPageTest -->
+    </classes>
+  </test> <!-- SearchPage TestCases(failed) -->
+</suite> <!-- Failed suite [MMT_TestSuite] -->

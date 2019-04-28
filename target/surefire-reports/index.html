@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MMT_TestSuite">
+              <span class="suite-name border-passed">MMT_TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MMT_TestSuite">
+                    <span>C:\Users\vishwa.vijetha\Desktop\Eclipse Workspace\NaveenALCodingChallenge2\MMT_TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MMT_TestSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MMT_TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MMT_TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MMT_TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MMT_TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MMT_TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MMT_TestSuite" class="hide-methods passed suite-MMT_TestSuite"> (hide)</a> <!-- hide-methods passed suite-MMT_TestSuite -->
+                      <a href="#" panel-name="suite-MMT_TestSuite" class="show-methods passed suite-MMT_TestSuite"> (show)</a> <!-- show-methods passed suite-MMT_TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MMT_TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="displayRoundTripFlights(ONESTOP)">displayRoundTripFlights(ONESTOP)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="displayRoundTripFlights(DEFAULT)">displayRoundTripFlights(DEFAULT)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="displayRoundTripFlights(NONSTOP)">displayRoundTripFlights(NONSTOP)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="selectRandomRoundTripFlightsAndVerifyPrice(2, 1)">selectRandomRoundTripFlightsAndVerifyPrice(2, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="selectRandomRoundTripFlightsAndVerifyPrice(1, 4)">selectRandomRoundTripFlightsAndVerifyPrice(1, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="selectRandomRoundTripFlightsAndVerifyPrice(2, 4)">selectRandomRoundTripFlightsAndVerifyPrice(2, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="selectRandomRoundTripFlightsAndVerifyPrice(2, 7)">selectRandomRoundTripFlightsAndVerifyPrice(2, 7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.HomePageTest" hash-for-method="verifyHomePageSearch">verifyHomePageSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.HomePageTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MMT_TestSuite" title="com.mmt.qa.testscripts.SearchPageTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MMT_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MMT_TestSuite" class="panel MMT_TestSuite">
+          <div class="suite-MMT_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mmt.qa.testscripts.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageSearch">
+                  </a> <!-- verifyHomePageSearch -->
+                  <span class="method-name">verifyHomePageSearch</span>
+                  <em>
+(Verify HomePage basic Search functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(Verify HomePage title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_TestSuite-class-passed -->
+          <div class="suite-MMT_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mmt.qa.testscripts.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayRoundTripFlights(ONESTOP)">
+                  </a> <!-- displayRoundTripFlights(ONESTOP) -->
+                  <span class="method-name">displayRoundTripFlights</span>
+                  <span class="parameters">(ONESTOP)</span>
+                  <em>
+(Display total no. of Departure and Return flights for different Stops)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayRoundTripFlights(DEFAULT)">
+                  </a> <!-- displayRoundTripFlights(DEFAULT) -->
+                  <span class="method-name">displayRoundTripFlights</span>
+                  <span class="parameters">(DEFAULT)</span>
+                  <em>
+(Display total no. of Departure and Return flights for different Stops)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayRoundTripFlights(NONSTOP)">
+                  </a> <!-- displayRoundTripFlights(NONSTOP) -->
+                  <span class="method-name">displayRoundTripFlights</span>
+                  <span class="parameters">(NONSTOP)</span>
+                  <em>
+(Display total no. of Departure and Return flights for different Stops)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRandomRoundTripFlightsAndVerifyPrice(2, 1)">
+                  </a> <!-- selectRandomRoundTripFlightsAndVerifyPrice(2, 1) -->
+                  <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice</span>
+                  <span class="parameters">(2, 1)</span>
+                  <em>
+(Select random RoundTrip flights and verify prices)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRandomRoundTripFlightsAndVerifyPrice(1, 4)">
+                  </a> <!-- selectRandomRoundTripFlightsAndVerifyPrice(1, 4) -->
+                  <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice</span>
+                  <span class="parameters">(1, 4)</span>
+                  <em>
+(Select random RoundTrip flights and verify prices)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRandomRoundTripFlightsAndVerifyPrice(2, 4)">
+                  </a> <!-- selectRandomRoundTripFlightsAndVerifyPrice(2, 4) -->
+                  <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice</span>
+                  <span class="parameters">(2, 4)</span>
+                  <em>
+(Select random RoundTrip flights and verify prices)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRandomRoundTripFlightsAndVerifyPrice(2, 7)">
+                  </a> <!-- selectRandomRoundTripFlightsAndVerifyPrice(2, 7) -->
+                  <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice</span>
+                  <span class="parameters">(2, 7)</span>
+                  <em>
+(Select random RoundTrip flights and verify prices)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(Verify SearchPage title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_TestSuite-class-passed -->
+        </div> <!-- panel MMT_TestSuite -->
+        <div panel-name="test-xml-MMT_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vishwa.vijetha\Desktop\Eclipse Workspace\NaveenALCodingChallenge2\MMT_TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;MMT_TestSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.mmt.qa.util.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;HomePage TestCases&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mmt.qa.testscripts.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePage TestCases --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;SearchPage TestCases&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mmt.qa.testscripts.SearchPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchPage TestCases --&gt;
+&lt;/suite&gt; &lt;!-- MMT_TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MMT_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MMT_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePage TestCases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SearchPage TestCases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MMT_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MMT_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MMT_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MMT_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MMT_TestSuite');
+function tableData_MMT_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyHomePageSearch')
+data.setCell(0, 2, 'com.mmt.qa.testscripts.HomePageTest')
+data.setCell(0, 3, 11828);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'displayRoundTripFlights')
+data.setCell(1, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(1, 3, 6993);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectRandomRoundTripFlightsAndVerifyPrice')
+data.setCell(2, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(2, 3, 1239);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'displayRoundTripFlights')
+data.setCell(3, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(3, 3, 1118);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectRandomRoundTripFlightsAndVerifyPrice')
+data.setCell(4, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(4, 3, 1110);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'displayRoundTripFlights')
+data.setCell(5, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(5, 3, 999);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectRandomRoundTripFlightsAndVerifyPrice')
+data.setCell(6, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(6, 3, 846);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectRandomRoundTripFlightsAndVerifyPrice')
+data.setCell(7, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(7, 3, 629);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyTitle')
+data.setCell(8, 2, 'com.mmt.qa.testscripts.HomePageTest')
+data.setCell(8, 3, 52);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTitle')
+data.setCell(9, 2, 'com.mmt.qa.testscripts.SearchPageTest')
+data.setCell(9, 3, 20);
+window.suiteTableData['MMT_TestSuite']= { tableData: data, tableDiv: 'times-div-MMT_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-MMT_TestSuite">
+              </div> <!-- times-div-MMT_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MMT_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MMT_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MMT_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MMT_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mmt.qa.testscripts.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mmt.qa.testscripts.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">12843 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageSearch</span>
+                <span class="method-start">12909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24740 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mmt.qa.testscripts.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">25481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayRoundTripFlights(DEFAULT)</span>
+                <span class="method-start">25514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayRoundTripFlights(NONSTOP)</span>
+                <span class="method-start">32509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayRoundTripFlights(ONESTOP)</span>
+                <span class="method-start">33509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice(2, 1)</span>
+                <span class="method-start">34891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice(1, 4)</span>
+                <span class="method-start">36003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice(2, 4)</span>
+                <span class="method-start">36849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectRandomRoundTripFlightsAndVerifyPrice(2, 7)</span>
+                <span class="method-start">38088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38718 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
