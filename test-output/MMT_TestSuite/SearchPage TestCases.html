@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SearchPage TestCases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 28 07:54:51 IST 2019</td>
+<td>Started on:</td><td>Sun Apr 28 20:19:34 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12229 ms)</td>
+<tr><td>Total time:</td><td>42 seconds (42248 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,114 +67,50 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mmt.qa.testscripts.SearchPageTest.setUp()'><b>setUp</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;IN2361417W1&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\VISHWA~1.VIJ\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59163}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 4f09b3b9d11b887867f2ab70bcea850f
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
-	at com.sun.proxy.$Proxy15.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
-	at com.mmt.qa.basesetup.DriverBase.clickOnElement(DriverBase.java:110)
-	at com.mmt.qa.pages.HomePage.selectFromCity(HomePage.java:76)
-	at com.mmt.qa.pages.HomePage.searchRoundTripFlights(HomePage.java:266)
-	at com.mmt.qa.testscripts.SearchPageTest.setUp(SearchPageTest.java:35)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace615954678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace615954678'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;IN2361417W1&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\VISHWA~1.VIJ\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59163}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 4f09b3b9d11b887867f2ab70bcea850f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
-	at com.sun.proxy.$Proxy15.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
-	at com.mmt.qa.basesetup.DriverBase.clickOnElement(DriverBase.java:110)
-	at com.mmt.qa.pages.HomePage.selectFromCity(HomePage.java:76)
-	at com.mmt.qa.pages.HomePage.searchRoundTripFlights(HomePage.java:266)
-	at com.mmt.qa.testscripts.SearchPageTest.setUp(SearchPageTest.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>12</td>
+<td title='com.mmt.qa.testscripts.SearchPageTest.displayRoundTripFlights()'><b>displayRoundTripFlights</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Display total no. of Departure and Return flights for different Stops<br>Parameters: DEFAULT</td>
+<td></td>
+<td>17</td>
 <td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
 <tr>
-<td title='com.mmt.qa.testscripts.SearchPageTest.tearDown()'><b>tearDown</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest</td>
+<td title='com.mmt.qa.testscripts.SearchPageTest.displayRoundTripFlights()'><b>displayRoundTripFlights</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Display total no. of Departure and Return flights for different Stops<br>Parameters: NONSTOP</td>
+<td></td>
+<td>0</td>
+<td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
+<tr>
+<td title='com.mmt.qa.testscripts.SearchPageTest.displayRoundTripFlights()'><b>displayRoundTripFlights</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Display total no. of Departure and Return flights for different Stops<br>Parameters: ONESTOP</td>
+<td></td>
+<td>1</td>
+<td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
+<tr>
+<td title='com.mmt.qa.testscripts.SearchPageTest.selectRandomRoundTripFlightsAndVerifyPrice()'><b>selectRandomRoundTripFlightsAndVerifyPrice</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Select random RoundTrip flights and verify prices<br>Parameters: 2, 8</td>
+<td></td>
+<td>1</td>
+<td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
+<tr>
+<td title='com.mmt.qa.testscripts.SearchPageTest.selectRandomRoundTripFlightsAndVerifyPrice()'><b>selectRandomRoundTripFlightsAndVerifyPrice</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Select random RoundTrip flights and verify prices<br>Parameters: 7, 9</td>
+<td></td>
+<td>0</td>
+<td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
+<tr>
+<td title='com.mmt.qa.testscripts.SearchPageTest.selectRandomRoundTripFlightsAndVerifyPrice()'><b>selectRandomRoundTripFlightsAndVerifyPrice</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Select random RoundTrip flights and verify prices<br>Parameters: 9, 8</td>
+<td></td>
+<td>0</td>
+<td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
+<tr>
+<td title='com.mmt.qa.testscripts.SearchPageTest.selectRandomRoundTripFlightsAndVerifyPrice()'><b>selectRandomRoundTripFlightsAndVerifyPrice</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Select random RoundTrip flights and verify prices<br>Parameters: 1, 5</td>
+<td></td>
+<td>0</td>
+<td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
+<tr>
+<td title='com.mmt.qa.testscripts.SearchPageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: com.mmt.qa.testscripts.SearchPageTest<br>Test method: Verify SearchPage title</td>
 <td></td>
 <td>0</td>
 <td>com.mmt.qa.testscripts.SearchPageTest@70beb599</td></tr>
