@@ -68,8 +68,8 @@ public class SearchPageTest extends DriverBase {
 		return new String[] { "DEFAULT", "NONSTOP", "ONESTOP" };
 	}
 
-	@Test(enabled = true, priority = 3, dataProvider = "getRandomRoundTripFlightsTop10Index", description = "Select random RoundTrip flights and verify prices")
-	public void selectRandomRoundTripFlightsAndVerifyPrice(int departureIndex, int returnIndex) {
+	@Test(enabled = true, priority = 3, dataProvider = "getRandomRoundTripFlightsTop10Index", description = "Select random RoundTrip flights by index and verify prices")
+	public void selectRandomRoundTripFlightsByIndexAndVerifyPrice(int departureIndex, int returnIndex) {
 		/**
 		 * 1. Clear filters
 		 */
