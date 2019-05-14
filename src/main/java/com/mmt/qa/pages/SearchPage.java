@@ -85,7 +85,6 @@ public class SearchPage extends DriverBase {
 				} 
 				if (stop.equalsIgnoreCase("NONSTOP") && isOneStopSelected) {
 					clickOnElement(labelOneStop);
-					clickOnElement(labelNonStop);
 				} else if (stop.equalsIgnoreCase("ONESTOP") && isNonStopSelected) {
 					clickOnElement(labelNonStop);
 				} 
